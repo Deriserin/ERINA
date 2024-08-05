@@ -15,7 +15,6 @@
         <h5>jumlah halaman: {{ buku.jumlah_halaman }}</h5>
         <h5>tahun terbit: {{ buku.tahun_terbit }}</h5>
         <h5>penerbit: {{ buku.penerbit }}</h5>
-        <h5>deskripsi: {{ buku.deskripsi }}</h5>
       </div>
       <div class="col-4 d-flex flex-column justify-content-center align-items">
         <div class="mb-5">
@@ -27,7 +26,7 @@
     </div>
     <div class="row text-dark">
       <div class="col">
-        <h4 class="text-white">Deskripsi</h4>
+        <h4 class="text-dark">Deskripsi</h4>
         <h5>{{ buku.deskripsi }}</h5>
       </div>
     </div>
